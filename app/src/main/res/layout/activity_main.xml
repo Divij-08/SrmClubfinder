@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="right"
+    android:background="#ffffff">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/button_round2"
+        android:elevation="20sp"
+        android:onClick="goToSettings"
+        android:text="Profile"
+        android:textColor="#ffffff"
+        android:textAllCaps="false">
+
+    </Button>
+</LinearLayout>
+
+    <com.lorentzos.flingswipe.SwipeFlingAdapterView
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:background="#ffffff"
+        app:rotation_degrees="15.5"
+        tools:context=".MyActivity" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:paddingEnd="50dp"
+        android:paddingLeft="50dp"
+        android:gravity="bottom">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="goToMatches"
+            android:text="Matches"
+            android:textColor="#ffffff"
+            android:elevation="20sp"
+            android:textAlignment="center"
+            android:background="@drawable/button_round2"
+            android:paddingEnd="20dp"
+            android:textAllCaps="false">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

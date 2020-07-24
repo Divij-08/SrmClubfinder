@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1037953545593",
+    "firebase_url": "https://srm-club-finder.firebaseio.com",
+    "project_id": "srm-club-finder",
+    "storage_bucket": "srm-club-finder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037953545593:android:c993a021c00f98d384eba8",
+        "android_client_info": {
+          "package_name": "com.webarch.Clubfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037953545593-53ha4avt5gpjk3d91r7qgok15f8i0n49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.webarch.Clubfinder",
+            "certificate_hash": "06117d88925ae26285857901beaf80b7cf691868"
+          }
+        },
+        {
+          "client_id": "1037953545593-f89tl78kiiubelteduk4gdumto7rknm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqcYSeCkUUuxeFoSqfb2tfXuP_DbAhSLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037953545593-f89tl78kiiubelteduk4gdumto7rknm7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
